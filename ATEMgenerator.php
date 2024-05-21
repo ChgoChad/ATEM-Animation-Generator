@@ -2,11 +2,11 @@
 	include 'functions.php';
 
 	$version = 0.2;
-	$minify = true;
+	$minify = false;
 	$build = true; // create a single HTML file with inline CSS + JS
 	
-	$build_path = '../build/';
-	$src_path = '../src/';
+	$build_path = '/workspaces/ATEM-Animation-Generator/build/';
+	$src_path = '/workspaces/ATEM-Animation-Generator/src/';
 
 	if ( $minify ) $min = '-min';
 	else $min = '';
@@ -32,8 +32,7 @@
 		// serve dev-only CSS + JS files
 		if ( preg_match( '/(\.css|\.js)$/', $_SERVER[ 'REQUEST_URI' ] ) ) return serve_file( $_SERVER[ 'REQUEST_URI' ] );
 
-		$css = '
-		<link rel="stylesheet" href="/build/css/styles-min.css">';
+		$css = '<link rel="stylesheet" href="/build/css/styles-min.css">';
 
 		$script = '
 		<script src="/src/js/script.js"></script>

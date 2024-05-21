@@ -312,7 +312,7 @@ var Generator = (function()
 
 		window.addEventListener( 'resize', function( evt ) {
 		   	
-		   //	log( window.innerWidth + ' : ' +  window.innerHeight + ' : ' + ( window.innerWidth / window.innerHeight ) );
+		   log( window.innerWidth + ' : ' +  window.innerHeight + ' : ' + ( window.innerWidth / window.innerHeight ) );
 
 		}, true ) 
 	}

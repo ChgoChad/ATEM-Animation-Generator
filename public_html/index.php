@@ -1,5 +1,5 @@
 <?php
 	
-	include( '../ATEMgenerator.php' );
+	include( '/workspaces/ATEM-Animation-Generator/ATEMgenerator.php' );
 
 	

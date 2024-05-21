@@ -3,7 +3,7 @@ Generator.getAnimationPresets = function( options, switcher )
 {
 	var presets = [ 0 ];
 
-	if ( options.keyers == 1 ) // single-keyer device (Mini, Pro)
+	if ( options.keyers == 1 || options.keyers != 0 ) // single-keyer device (Mini, Pro)
 	{
 		presets.push( 
 			{	name: switcher + " - Simple keyer example",
