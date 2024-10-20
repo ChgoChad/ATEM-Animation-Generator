@@ -1,6 +1,8 @@
 # ATEM-Animation-Generator
 An amazing ATEM DVE Animation Generator for creating "macro-based" animations for Blackmagic Design ATEM video switchers.
 
+* **GRAB THE LATEST BUILD [HERE](https://github.com/ChgoChad/ATEM-Animation-Generator/releases)**
+
 [Check out the demo](https://zmip.github.io).
 
 ![preview of the animation editor](https://forum.blackmagicdesign.com/download/file.php?id=50357)
